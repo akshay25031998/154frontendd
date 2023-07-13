@@ -1,0 +1,8 @@
+ <p>usermenu works!</p>
+ <div class="menu">
+    <div *ngFor="let option of userOption[0][userType]">
+        <button class="btn btn-primary ms-5 mt-3"[routerLink]="option.path" routerLink="chek_cibil">{{option.lable}}</button>
+       
+    </div>
+    
+ </div>
